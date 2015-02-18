@@ -12,7 +12,7 @@ public class RestartingProxyTest
     		System.out.println("Start proxy. Iteration: "+i);
     		HttpProxyServer server =
         		    DefaultHttpProxyServer.bootstrap()
-        		        .withPort(8080)
+        		        .withPort(8085)
         		        .start();
     		System.out.println("Proxy started. Stopping proxy. Iteration: "+i);
         	server.stop();
